@@ -1,0 +1,603 @@
+﻿# For documentation, see http://blog.kowalczyk.info/software/sumatrapdf/settings2.3.html
+
+MainWindowBackground = #80fff200
+EscToExit = false
+ReuseInstance = false
+FixedPageUI [
+	TextColor = #000000
+	BackgroundColor = #ffffff
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+]
+EbookUI [
+	FontName = Georgia
+	FontSize = 12.5
+	TextColor = #5f4b32
+	BackgroundColor = #fbf0d9
+	UseFixedPageUI = false
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = false
+]
+ExternalViewers [
+]
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+PrinterDefaults [
+	PrintScale = shrink
+	PrintAsImage = false
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #ff8165
+	HighlightPermanent = false
+]
+
+RememberStatePerDocument = true
+UiLanguage = ja
+ShowToolbar = true
+ShowFavorites = false
+AssociateSilently = false
+CheckForUpdates = true
+RememberOpenedFiles = true
+UseSysColors = false
+EnableTeXEnhancements = false
+DefaultDisplayMode = automatic
+DefaultZoom = fit page
+WindowState = 1
+WindowPos = 984 0 943 1040
+ShowToc = true
+SidebarDx = 0
+TocDy = 0
+ShowStartPage = true
+
+FileStates [
+	[
+		FilePath = \\locust\17 Ei\Ei2_Kicad実習資料\参考資料\KiCad-PCBNEW（アートワーク実習用).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = 34 287
+		PageNo = 22
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 984 0 943 1087
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1939\KiCAD\レポート課題.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 984 0 942 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei2_Kicad実習資料\参考資料\KiCad-EESchema（回路図編実習用) .pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 729
+		PageNo = 20
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 984 0 942 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = P:\Ei2_Kicad実習資料\参考資料\レポート課題.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 40
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 984 0 943 1080
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = P:\Ei2_Kicad実習資料\参考資料\KiCad-EESchema（回路図編実習用) .pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 746
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 984 0 943 1080
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = P:\Ei2_Kicad実習資料\参考資料\KiCad-PCBNEW（アートワーク実習用).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 388
+		PageNo = 20
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 984 0 942 1087
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1939\KiCAD\tutorial1\KiCad-EESchema（回路図編実習用) .pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 747
+		PageNo = 19
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 0 974 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = Z:\KiCAD\tutorial1\KiCad-EESchema（回路図編実習用) .pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = single page
+		ScrollPos = 61 323
+		PageNo = 13
+		Zoom = 150
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 0 974 1047
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei3_3Ｄ-CAD\３Ｄ-CAD課題.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 835 7 1080 1024
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1939\KiCAD\KiCad-PCBNEW（アートワーク実習用).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 23
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 984 0 942 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei3_3Ｄ-CAD\３D-CAD実習.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 128
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 835 7 1080 1024
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1912\Ei2_Excel実習\EXCEL実習＿マクロの操作.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 310
+		PageNo = 8
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 547 48 1080 1024
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\4．UART実習資料\レポートについて（UART）.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 547 48 1080 1024
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei2_Excel実習\EXCEL実習＿VBAの基礎(改訂２).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 166
+		PageNo = 11
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 547 48 1080 1024
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\4．UART実習資料\UART実習(ver.2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 164
+		PageNo = 22
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 397 178 1080 779
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1931\Ei2_Excel実習\EXCEL実習＿VBAの基礎(改訂２).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 10
+		PageNo = 3
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 292 0 722 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1939\Ei2_Excel実習\EXCEL実習＿VBAの基礎(改訂２).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 173
+		PageNo = 9
+		Zoom = 100
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 0 974 1047
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1935\Ei2_Excel実習\EXCEL実習＿VBAの基礎(改訂２).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 673
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 173 12 722 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1940\Ei2_Excel実習\EXCEL実習＿VBAの基礎(改訂２).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 247
+		PageNo = 11
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 927 0 961 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1938\R2 実習\Ei2_Excel実習\EXCEL実習＿マクロの操作.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 515
+		PageNo = 4
+		Zoom = 125
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 9 43 1533 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1931\Ei2_Excel実習\EXCEL実習＿マクロの操作.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 758
+		PageNo = 7
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1101 1 722 1100
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1938\R2 実習\Ei2_Excel実習\EXCEL実習＿VBAの基礎(改訂２).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 2
+		PageNo = 12
+		Zoom = 200
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 757 52 722 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\myenv\DeskTop\Ei2_Excel実習\EXCEL実習＿マクロの操作.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 558 0 803 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1912\Ei2_Excel実習\EXCEL実習＿VBAの基礎(改訂２).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 485
+		PageNo = 10
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 1167 60 697 646
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1939\Ei2_Excel実習\EXCEL実習＿マクロの操作.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 300 36 803 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1935\Ei2_Excel実習\EXCEL実習＿マクロの操作.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 643
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 0 974 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\falcon\ei1941\Ei2_Excel実習\EXCEL実習＿VBAの基礎(改訂２).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 197
+		PageNo = 9
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 1009 30 902 1040
+		ShowToc = false
+		SidebarDx = 0
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+]
+TimeOfLastUpdateCheck = 0 0
+OpenCountWeek = 536

@@ -1,0 +1,21 @@
+
+参考資料
+Dim waitTime As Variant
+
+waitTime = Now + TimeValue("0:00:10")
+Application.Wait waitTime
+
+Application.hight
+
+
+Sub sample()
+    Application.WindowState = xlMaximized   '最大化
+    MsgBox "最大化で表示しています。"
+    Application.WindowState = xlMinimized   '最小化
+    MsgBox "最小化で表示しています。"
+    Application.WindowState = xlNormal   '標準
+    MsgBox "標準で表示しています。"
+    ActiveSheet.Shapes.AddShape(msoShapeSmileyFace, 0, 0, Application.Width, Application.Height).Select
+    MsgBox "最大で表示しています。"
+
+End Sub
