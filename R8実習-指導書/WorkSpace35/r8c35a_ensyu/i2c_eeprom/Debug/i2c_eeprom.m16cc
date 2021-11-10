@@ -1,0 +1,8 @@
+-lang=c
+-I"..\..\..\common_r8c35a"
+-D__UART0__
+-c
+-finfo
+-dir "G:\USB1\ã≥çﬁ\é¿èK\R8é¿èK\WorkSpace\r8c35a_ensyu\i2c_eeprom\Debug"
+-R8C
+"G:\USB1\ã≥çﬁ\é¿èK\R8é¿èK\WorkSpace\r8c35a_ensyu\i2c_eeprom\i2c_eeprom.c"

@@ -1,0 +1,8 @@
+-lang=c
+-I"..\..\..\common_r8c35a"
+-D__UART0__
+-c
+-finfo
+-dir "J:\project-space\WorkSpace35\r8c35a_ensyu\motor\Debug"
+-R8C
+"J:\project-space\WorkSpace35\r8c35a_ensyu\motor\startup.c"

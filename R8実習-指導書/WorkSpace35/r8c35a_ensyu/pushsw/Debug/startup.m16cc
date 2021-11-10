@@ -1,0 +1,8 @@
+-lang=c
+-I"..\..\..\common_r8c35a"
+-D__UART0__
+-c
+-finfo
+-dir "\\locust\ei2031\zissyu\R8ÀK-w“±‘\WorkSpace35\r8c35a_ensyu\pushsw\Debug"
+-R8C
+"\\locust\ei2031\zissyu\R8ÀK-w“±‘\WorkSpace35\r8c35a_ensyu\pushsw\startup.c"

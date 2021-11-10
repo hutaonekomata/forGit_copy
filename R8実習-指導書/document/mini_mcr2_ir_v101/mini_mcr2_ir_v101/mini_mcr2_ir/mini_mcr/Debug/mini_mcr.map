@@ -1,0 +1,451 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\bin\ln30.exe @C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\mini_mcr.m16cl
+
+# ID CODE DATA
+.ID  "#FFFFFFFFFFFFFF"
+
+# OPTION FUNCTION SELECT REGISTER
+.OFSREG  BFH
+
+# LINK FILE INFORMATION
+mini_mcr (C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\mini_mcr.r30)
+	Apr 21 16:31:42 2010
+
+printf_lib (C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\printf_lib.r30)
+	Apr 20 11:26:43 2010
+
+startup (C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\startup.r30)
+	Apr 20 11:26:42 2010
+
+_i4mulu (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:13 2008
+
+mdata (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:37 2008
+
+nstrncmp (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:50 2008
+
+printf (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:55 2008
+
+_i4divs (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:54:57 2008
+
+fputc (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:32 2008
+
+print (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:55 2008
+
+_i4divus (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:54:57 2008
+
+_i4modu (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:13 2008
+
+_i8divu (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:14 2008
+
+_i8modu (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:15 2008
+
+cdata (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:21 2008
+
+fgetc (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:25 2008
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          REL DATA    000400 000000 2     startup
+bss_SE                           REL DATA    000400 000000 2     startup
+data_SO                          REL DATA    000400 000000       startup
+bss_SO                           REL DATA    000400 000000       startup
+data_NE                          REL DATA    000400 00000A 2     mini_mcr
+                                 REL DATA    00040A 00000A 2     printf_lib
+                                 REL DATA    000414 000000 2     startup
+                                 REL DATA    000414 00000C 2     mdata
+bss_NE                           REL DATA    000420 000040 2     mini_mcr
+                                 REL DATA    000460 00009C 2     printf_lib
+                                 REL DATA    0004FC 000000 2     startup
+                                 REL DATA    0004FC 000100 2     startup
+                                 REL DATA    0005FC 000006 2     mdata
+                                 REL DATA    000602 000080 2     print
+data_NO                          REL DATA    000682 000000       startup
+bss_NO                           REL DATA    000682 000000       startup
+stack                            REL DATA    000682 000100       startup
+istack                           REL DATA    000782 000100       startup
+heap_NE                          REL DATA    000882 000000 2     startup
+rom_NO                           REL ROMDATA 008000 000115       mini_mcr
+                                 REL ROMDATA 008115 000101       cdata
+data_SEI                         REL ROMDATA 008216 000000       startup
+data_SOI                         REL ROMDATA 008216 000000       startup
+data_NEI                         REL ROMDATA 008216 00000A       mini_mcr
+                                 REL ROMDATA 008220 00000A       printf_lib
+                                 REL ROMDATA 00822A 000000       startup
+                                 REL ROMDATA 00822A 00000C       mdata
+data_NOI                         REL ROMDATA 008236 000000       startup
+program                          REL CODE    008236 000592 2     mini_mcr
+                                 REL CODE    0087C8 0002B4 2     printf_lib
+                                 REL CODE    008A7C 000005 2     startup
+                                 REL CODE    008A82 00009E 2     startup
+                                 REL CODE    008B20 00001C 2     _i4mulu
+                                 REL CODE    008B3C 00004E 2     nstrncmp
+                                 REL CODE    008B8A 000093 2     printf
+                                 REL CODE    008C1E 00010C 2     _i4divs
+                                 REL CODE    008D2A 00004D 2     fputc
+                                 REL CODE    008D78 000C29 2     print
+                                 REL CODE    0099A2 0000CE 2     _i4divus
+                                 REL CODE    009A70 00004B 2     _i4modu
+                                 REL CODE    009ABC 0000F8 2     _i8divu
+                                 REL CODE    009BB4 0000CF 2     _i8modu
+                                 REL CODE    009C84 000128 2     fgetc
+interrupt                        REL CODE    009DAC 000000 2     startup
+vector                           REL ROMDATA 00FED8 000100       mini_mcr
+fvector                          ABS ROMDATA 00FFD8 000028       startup
+# Total -------------------------------------------------------------------
+                                     DATA           000482(0001154) Byte(s)
+                                     ROMDATA        00035E(0000862) Byte(s)
+                                     CODE           001B76(0007030) Byte(s)
+
+##########################################
+# VARIABLE VECTOR TABLE INFORMATION      #
+##########################################
+No.  Address               No.  Address               No.  Address
+0    __dummy_int           1    __dummy_int           2    __dummy_int           
+3    __dummy_int           4    __dummy_int           5    __dummy_int           
+6    __dummy_int           7    __dummy_int           8    __dummy_int           
+9    __dummy_int           10   __dummy_int           11   __dummy_int           
+12   __dummy_int           13   __dummy_int           14   __dummy_int           
+15   __dummy_int           16   __dummy_int           17   __uart0_trance        
+18   __dummy_int           19   __dummy_int           20   __dummy_int           
+21   __dummy_int           22   _intTRAIC             23   __dummy_int           
+24   _intTRBIC             25   __dummy_int           26   __dummy_int           
+27   __dummy_int           28   __dummy_int           29   __dummy_int           
+30   __dummy_int           31   __dummy_int           32   __dummy_int           
+33   __dummy_int           34   __dummy_int           35   __dummy_int           
+36   __dummy_int           37   __dummy_int           38   __dummy_int           
+39   __dummy_int           40   __dummy_int           41   __dummy_int           
+42   __dummy_int           43   __dummy_int           44   __dummy_int           
+45   __dummy_int           46   __dummy_int           47   __dummy_int           
+48   __dummy_int           49   __dummy_int           50   __dummy_int           
+51   __dummy_int           52   __dummy_int           53   __dummy_int           
+54   __dummy_int           55   __dummy_int           56   __dummy_int           
+57   __dummy_int           58   __dummy_int           59   __dummy_int           
+60   __dummy_int           61   __dummy_int           62   __dummy_int           
+63   __dummy_int           
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$_inmod            009886  $_n_n_strncmp      008b3c  $_print            008d78
+$beep              008776  $fgetc             009c84  $fputc             008d2a
+$getSendBuff       0089b6  $get_uart0         008a1a  $init_uart0_prin   0087c8
+$motor             00865a  $put_uart0         008a62  $setSendBuff       008984
+$write             0088a4  __ctype            008115  __dummy_int        008a7c
+__i4div            008c64  __i4divU           0099ce  __i4modU           009a70
+__i4mulU           008b20  __i8divU           009abc  __i8modU           009bb4
+__iob              000460  __istack_top       000882  __memt             00041a
+__mnext            0005fc  __msize            0005fe  __pool             000414
+__stack_top        000782  __uart0_trance     0089f2  __vector_top       00fed8
+_cnt0              000400  _cnt1              000404  _dipsw             008790
+_heap_area         0004fc  _init              0083ea  _initsct           008a82
+_intTRAIC          0084ca  _intTRBIC          0085b2  _ir_data           000420
+_main              008236  _printf            008b8a  _pushsw            0087b0
+_read              0088f0  _sensor            008642  _start             008ae8
+_timer             008758  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ mini_mcr ( C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\mini_mcr.r30 )
+@ printf_lib ( C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\printf_lib.r30 )
+@ startup ( C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\startup.r30 )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ nstrncmp ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ printf ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4divs ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ fputc ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ print ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4divus ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4modu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i8divu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i8modu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ cdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ fgetc ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ mini_mcr ( C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\mini_mcr.r30 )
+@ printf_lib ( C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\printf_lib.r30 )
+@ startup ( C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\startup.r30 )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ nstrncmp ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ printf ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4divs ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ fputc ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ print ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4divus ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4modu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i8divu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i8modu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ cdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ fgetc ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ mini_mcr ( C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\mini_mcr.r30 )
+@ printf_lib ( C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\printf_lib.r30 )
+@ startup ( C:\WorkSpace\mini_mcr2_ir\mini_mcr\Debug\startup.r30 )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ nstrncmp ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ printf ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4divs ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ fputc ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ print ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4divus ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4modu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i8divu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i8modu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ cdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ fgetc ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   2
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  0000041f        20   2
+bss_NE
+                                  00000420  00000681       262   2
+data_NO
+                                  00000682  00000682         0   1
+bss_NO
+                                  00000682  00000682         0   1
+stack
+                                  00000682  00000781       100   1
+istack
+                                  00000782  00000881       100   1
+heap_NE
+                                  00000882  00000882         0   2
+rom_NO
+                                  00008000  00008215       216   1
+data_SEI
+                                  00008216  00008216         0   1
+data_SOI
+                                  00008216  00008216         0   1
+data_NEI
+                                  00008216  00008235        20   1
+data_NOI
+                                  00008236  00008236         0   1
+program
+                                  00008236  00009dab      1b76   2
+interrupt
+                                  00009dac  00009dac         0   2
+vector
+                                  0000fed8  0000ffd7       100   1
+fvector
+                                  0000ffd8  0000ffff        28   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_NE
+FILE=C:/WorkSpace/mini_mcr2_ir/mini_mcr/mini_mcr
+                                  00000400  00000409         a
+  _cnt0
+                                  00000400         4   data ,g         0
+  _cnt1
+                                  00000404         4   data ,g         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+FILE=mdata
+                                  00000414  0000041f         c
+  __memt
+                                  0000041a         0   none ,g         0
+  __pool
+                                  00000414         0   none ,g         0
+
+SECTION=bss_NE
+FILE=C:/WorkSpace/mini_mcr2_ir/mini_mcr/mini_mcr
+                                  00000420  0000045f        40
+  _ir_data
+                                  00000420        40   data ,g         0
+
+FILE=C:/WorkSpace/common_r8c35a/printf_lib
+                                  00000460  000004fb        9c
+  __iob
+                                  00000460        3c   data ,g         0
+
+FILE=C:/WorkSpace/mini_mcr2_ir/mini_mcr/startup
+                                  000004fc  000005fb       100
+  _heap_area
+                                  000004fc       100   data ,g         0
+
+FILE=mdata
+                                  000005fc  00000601         6
+  __mnext
+                                  000005fc         0   none ,g         0
+  __msize
+                                  000005fe         0   none ,g         0
+
+SECTION=istack
+FILE=C:/WorkSpace/mini_mcr2_ir/mini_mcr/startup
+                                  00000782  00000881       100
+  __stack_top
+                                  00000782         0   none ,g         0
+
+SECTION=heap_NE
+FILE=C:/WorkSpace/mini_mcr2_ir/mini_mcr/startup
+                                  00000882  00000882         0
+  __istack_top
+                                  00000882         0   none ,g         0
+
+SECTION=rom_NO
+FILE=cdata
+                                  00008115  00008215       101
+  __ctype
+                                  00008115         0   none ,g         0
+
+SECTION=program
+FILE=C:/WorkSpace/mini_mcr2_ir/mini_mcr/mini_mcr
+                                  00008236  000087c7       592
+  _main
+                                  00008236       1b4   func ,g         0
+  _init
+                                  000083ea        e0   func ,g         0
+  _intTRAIC
+                                  000084ca        e8   func ,g         0
+  _intTRBIC
+                                  000085b2        90   func ,g         0
+  _sensor
+                                  00008642        18   func ,g         0
+  $motor
+                                  0000865a        fe   func ,g         0
+  _timer
+                                  00008758        1d   func ,g         0
+  $beep
+                                  00008776        1b   func ,g         0
+  _dipsw
+                                  00008790        1f   func ,g         0
+
+FILE=C:/WorkSpace/common_r8c35a/printf_lib
+                                  000087c8  00008a7b       2b4
+  $init_uart0_printf
+                                  000087c8        db   func ,g         0
+  $write
+                                  000088a4        4d   func ,g         0
+  _read
+                                  000088f0        93   func ,g         0
+  $setSendBuff
+                                  00008984        33   func ,g         0
+  $getSendBuff
+                                  000089b6        3c   func ,g         0
+  __uart0_trance
+                                  000089f2        27   func ,g         0
+  $get_uart0
+                                  00008a1a        48   func ,g         0
+
+FILE=C:/WorkSpace/mini_mcr2_ir/mini_mcr/startup
+                                  00008a7c  00008a80         5
+  __dummy_int
+                                  00008a7c         5   func ,g         0
+
+FILE=C:/WorkSpace/mini_mcr2_ir/mini_mcr/startup
+                                  00008a82  00008b1f        9e
+  _initsct
+                                  00008a82        65   func ,g         0
+
+FILE=_i4mulu
+                                  00008b20  00008b3b        1c
+  __i4mulU
+                                  00008b20        1c   func ,g         0
+
+FILE=nstrncmp
+                                  00008b3c  00008b89        4e
+  $_n_n_strncmp
+                                  00008b3c        4e   func ,g         0
+
+FILE=printf
+                                  00008b8a  00008c1c        93
+  _printf
+                                  00008b8a        8a   func ,g         0
+
+FILE=_i4divs
+                                  00008c1e  00008d29       10c
+  __i4div
+                                  00008c64         0   func ,g         0
+
+FILE=fputc
+                                  00008d2a  00008d76        4d
+  $fputc
+                                  00008d2a        4d   func ,g         0
+
+FILE=print
+                                  00008d78  000099a0       c29
+  $_print
+                                  00008d78       b0d   func ,g         0
+
+FILE=_i4divus
+                                  000099a2  00009a6f        ce
+  __i4divU
+                                  000099ce         0   func ,g         0
+
+FILE=_i4modu
+                                  00009a70  00009aba        4b
+  __i4modU
+                                  00009a70        4b   func ,g         0
+
+FILE=_i8divu
+                                  00009abc  00009bb3        f8
+  __i8divU
+                                  00009abc        f8   func ,g         0
+
+FILE=_i8modu
+                                  00009bb4  00009c82        cf
+  __i8modU
+                                  00009bb4        cf   func ,g         0
+
+FILE=fgetc
+                                  00009c84  00009dab       128
+  $fgetc
+                                  00009c84       128   func ,g         0
+
+SECTION=vector
+FILE=C:/WorkSpace/mini_mcr2_ir/mini_mcr/mini_mcr
+                                  0000fed8  0000fedf         8
+  __vector_top
+                                  0000fed8         0   none ,g         0
+

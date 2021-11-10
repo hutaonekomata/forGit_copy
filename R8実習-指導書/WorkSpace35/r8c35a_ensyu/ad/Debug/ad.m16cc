@@ -1,0 +1,8 @@
+-lang=c
+-I"..\..\..\common_r8c35a"
+-D__UART0__
+-c
+-finfo
+-dir "G:\project-space\WorkSpace35\r8c35a_ensyu\ad\Debug"
+-R8C
+"G:\project-space\WorkSpace35\r8c35a_ensyu\ad\ad.c"

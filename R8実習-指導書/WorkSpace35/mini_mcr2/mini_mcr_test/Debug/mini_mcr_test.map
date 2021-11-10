@@ -1,0 +1,281 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\bin\ln30.exe @C:\WorkSpace\mini_mcr2\mini_mcr_test\Debug\mini_mcr_test.m16cl
+
+# ID CODE DATA
+.ID  "#FFFFFFFFFFFFFF"
+
+# OPTION FUNCTION SELECT REGISTER
+.OFSREG  BFH
+
+# LINK FILE INFORMATION
+mini_mcr_test (C:\WorkSpace\mini_mcr2\mini_mcr_test\Debug\mini_mcr_test.r30)
+	Apr 20 11:10:00 2010
+
+startup (C:\WorkSpace\mini_mcr2\mini_mcr_test\Debug\startup.r30)
+	Apr 20 11:10:01 2010
+
+_i4mulu (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:13 2008
+
+mdata (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:56:37 2008
+
+_i4divs (c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib)
+	Jan  9 09:54:57 2008
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          REL DATA    000400 000000 2     startup
+bss_SE                           REL DATA    000400 000000 2     startup
+data_SO                          REL DATA    000400 000000       startup
+bss_SO                           REL DATA    000400 000000       startup
+data_NE                          REL DATA    000400 00000A 2     mini_mcr_test
+                                 REL DATA    00040A 000000 2     startup
+                                 REL DATA    00040A 00000C 2     mdata
+bss_NE                           REL DATA    000416 000000 2     startup
+                                 REL DATA    000416 000100 2     startup
+                                 REL DATA    000516 000006 2     mdata
+data_NO                          REL DATA    00051C 000000       startup
+bss_NO                           REL DATA    00051C 000000       startup
+stack                            REL DATA    00051C 000100       startup
+istack                           REL DATA    00061C 000100       startup
+heap_NE                          REL DATA    00071C 000000 2     startup
+data_SEI                         REL ROMDATA 008000 000000       startup
+data_SOI                         REL ROMDATA 008000 000000       startup
+data_NEI                         REL ROMDATA 008000 00000A       mini_mcr_test
+                                 REL ROMDATA 00800A 000000       startup
+                                 REL ROMDATA 00800A 00000C       mdata
+data_NOI                         REL ROMDATA 008016 000000       startup
+program                          REL CODE    008016 0003EC 2     mini_mcr_test
+                                 REL CODE    008402 000005 2     startup
+                                 REL CODE    008408 00009E 2     startup
+                                 REL CODE    0084A6 00001C 2     _i4mulu
+                                 REL CODE    0084C2 00010C 2     _i4divs
+interrupt                        REL CODE    0085CE 000000 2     startup
+vector                           REL ROMDATA 00FED8 000100       mini_mcr_test
+fvector                          ABS ROMDATA 00FFD8 000028       startup
+# Total -------------------------------------------------------------------
+                                     DATA           00031C(0000796) Byte(s)
+                                     ROMDATA        00013E(0000318) Byte(s)
+                                     CODE           0005B8(0001464) Byte(s)
+
+##########################################
+# VARIABLE VECTOR TABLE INFORMATION      #
+##########################################
+No.  Address               No.  Address               No.  Address
+0    __dummy_int           1    __dummy_int           2    __dummy_int           
+3    __dummy_int           4    __dummy_int           5    __dummy_int           
+6    __dummy_int           7    __dummy_int           8    __dummy_int           
+9    __dummy_int           10   __dummy_int           11   __dummy_int           
+12   __dummy_int           13   __dummy_int           14   __dummy_int           
+15   __dummy_int           16   __dummy_int           17   __dummy_int           
+18   __dummy_int           19   __dummy_int           20   __dummy_int           
+21   __dummy_int           22   __dummy_int           23   __dummy_int           
+24   _intTRBIC             25   __dummy_int           26   __dummy_int           
+27   __dummy_int           28   __dummy_int           29   __dummy_int           
+30   __dummy_int           31   __dummy_int           32   __dummy_int           
+33   __dummy_int           34   __dummy_int           35   __dummy_int           
+36   __dummy_int           37   __dummy_int           38   __dummy_int           
+39   __dummy_int           40   __dummy_int           41   __dummy_int           
+42   __dummy_int           43   __dummy_int           44   __dummy_int           
+45   __dummy_int           46   __dummy_int           47   __dummy_int           
+48   __dummy_int           49   __dummy_int           50   __dummy_int           
+51   __dummy_int           52   __dummy_int           53   __dummy_int           
+54   __dummy_int           55   __dummy_int           56   __dummy_int           
+57   __dummy_int           58   __dummy_int           59   __dummy_int           
+60   __dummy_int           61   __dummy_int           62   __dummy_int           
+63   __dummy_int           
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$beep              0083b0  $motor             00829a  __dummy_int        008402
+__i4div            008508  __i4mulU           0084a6  __istack_top       00071c
+__memt             000410  __mnext            000516  __msize            000518
+__pool             00040a  __stack_top        00061c  __vector_top       00fed8
+_cnt0              000400  _cnt1              000404  _dipsw             0083ca
+_heap_area         000416  _init              008132  _initsct           008408
+_intTRBIC          0081f6  _main              008016  _pattern           000408
+_pushsw            0083ea  _sensor            008282  _start             00846e
+_timer             008392  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ mini_mcr_test ( C:\WorkSpace\mini_mcr2\mini_mcr_test\Debug\mini_mcr_test.r30 )
+@ startup ( C:\WorkSpace\mini_mcr2\mini_mcr_test\Debug\startup.r30 )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4divs ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ mini_mcr_test ( C:\WorkSpace\mini_mcr2\mini_mcr_test\Debug\mini_mcr_test.r30 )
+@ startup ( C:\WorkSpace\mini_mcr2\mini_mcr_test\Debug\startup.r30 )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4divs ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ mini_mcr_test ( C:\WorkSpace\mini_mcr2\mini_mcr_test\Debug\mini_mcr_test.r30 )
+@ startup ( C:\WorkSpace\mini_mcr2\mini_mcr_test\Debug\startup.r30 )
+@ _i4mulu ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+@ _i4divs ( c:\program files\renesas\hew\tools\renesas\nc30wa\v544r00\lib30\r8clib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   2
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  00000415        16   2
+bss_NE
+                                  00000416  0000051b       106   2
+data_NO
+                                  0000051c  0000051c         0   1
+bss_NO
+                                  0000051c  0000051c         0   1
+stack
+                                  0000051c  0000061b       100   1
+istack
+                                  0000061c  0000071b       100   1
+heap_NE
+                                  0000071c  0000071c         0   2
+data_SEI
+                                  00008000  00008000         0   1
+data_SOI
+                                  00008000  00008000         0   1
+data_NEI
+                                  00008000  00008015        16   1
+data_NOI
+                                  00008016  00008016         0   1
+program
+                                  00008016  000085cd       5b8   2
+interrupt
+                                  000085ce  000085ce         0   2
+vector
+                                  0000fed8  0000ffd7       100   1
+fvector
+                                  0000ffd8  0000ffff        28   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_NE
+FILE=C:/WorkSpace/mini_mcr2/mini_mcr_test/mini_mcr_test
+                                  00000400  00000409         a
+  _cnt0
+                                  00000400         4   data ,g         0
+  _cnt1
+                                  00000404         4   data ,g         0
+  _pattern
+                                  00000408         2   data ,g         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+FILE=mdata
+                                  0000040a  00000415         c
+  __memt
+                                  00000410         0   none ,g         0
+  __pool
+                                  0000040a         0   none ,g         0
+
+SECTION=bss_NE
+FILE=C:/WorkSpace/mini_mcr2/mini_mcr_test/startup
+                                  00000416  00000515       100
+  _heap_area
+                                  00000416       100   data ,g         0
+
+FILE=mdata
+                                  00000516  0000051b         6
+  __mnext
+                                  00000516         0   none ,g         0
+  __msize
+                                  00000518         0   none ,g         0
+
+SECTION=istack
+FILE=C:/WorkSpace/mini_mcr2/mini_mcr_test/startup
+                                  0000061c  0000071b       100
+  __stack_top
+                                  0000061c         0   none ,g         0
+
+SECTION=heap_NE
+FILE=C:/WorkSpace/mini_mcr2/mini_mcr_test/startup
+                                  0000071c  0000071c         0
+  __istack_top
+                                  0000071c         0   none ,g         0
+
+SECTION=program
+FILE=C:/WorkSpace/mini_mcr2/mini_mcr_test/mini_mcr_test
+                                  00008016  00008401       3ec
+  _main
+                                  00008016       11c   func ,g         0
+  _init
+                                  00008132        c4   func ,g         0
+  _intTRBIC
+                                  000081f6        8c   func ,g         0
+  _sensor
+                                  00008282        18   func ,g         0
+  $motor
+                                  0000829a        f8   func ,g         0
+  _timer
+                                  00008392        1d   func ,g         0
+  $beep
+                                  000083b0        1b   func ,g         0
+  _dipsw
+                                  000083ca        1f   func ,g         0
+
+FILE=C:/WorkSpace/mini_mcr2/mini_mcr_test/startup
+                                  00008402  00008406         5
+  __dummy_int
+                                  00008402         5   func ,g         0
+
+FILE=C:/WorkSpace/mini_mcr2/mini_mcr_test/startup
+                                  00008408  000084a5        9e
+  _initsct
+                                  00008408        65   func ,g         0
+
+FILE=_i4mulu
+                                  000084a6  000084c1        1c
+  __i4mulU
+                                  000084a6        1c   func ,g         0
+
+FILE=_i4divs
+                                  000084c2  000085cd       10c
+  __i4div
+                                  00008508         0   func ,g         0
+
+SECTION=vector
+FILE=C:/WorkSpace/mini_mcr2/mini_mcr_test/mini_mcr_test
+                                  0000fed8  0000fedb         4
+  __vector_top
+                                  0000fed8         0   none ,g         0
+

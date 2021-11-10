@@ -1,0 +1,7 @@
+-I"..\..\..\common_r8c35a"
+-D__UART0__
+-c
+-finfo
+-dir "C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\Debug"
+-R8C
+"C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\timer_rc_pwm.c"

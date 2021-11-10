@@ -1,0 +1,19 @@
+-noprelink
+-nomessage
+-list="\\locust\ei2031\zissyu\R8ÀK-w“±‘\WorkSpace35\r8c35a_ensyu\timer2\Debug\timer2.map"
+-show=symbol,total_size
+-start=data_SE,bss_SE,data_SO,bss_SO,data_NE,bss_NE,data_NO,bss_NO,stack,istack,heap_NE/0400,rom_NE,rom_NO,data_SEI,data_SOI,data_NEI,data_NOI,switch_table,program,interrupt/08000,vector/0FED8
+-nologo
+-stack
+-total_size
+-input="\\locust\ei2031\zissyu\R8ÀK-w“±‘\WorkSpace35\r8c35a_ensyu\timer2\Debug\startup.obj"
+-input="\\locust\ei2031\zissyu\R8ÀK-w“±‘\WorkSpace35\r8c35a_ensyu\timer2\Debug\timer2 _4000.obj"
+-library="\\locust\ei2031\zissyu\R8ÀK-w“±‘\WorkSpace35\r8c35a_ensyu\timer2\Debug\timer2.lib"
+-output="\\locust\ei2031\zissyu\R8ÀK-w“±‘\WorkSpace35\r8c35a_ensyu\timer2\Debug\timer2.abs"
+-change_message=information=1100,1322,1410
+-end
+-input="\\locust\ei2031\zissyu\R8ÀK-w“±‘\WorkSpace35\r8c35a_ensyu\timer2\Debug\timer2.abs"
+-form=stype
+-output="\\locust\ei2031\zissyu\R8ÀK-w“±‘\WorkSpace35\r8c35a_ensyu\timer2\Debug\timer2.mot"
+-exit
+

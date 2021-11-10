@@ -1,0 +1,23 @@
+Optimizing Linkage Editor (V.10.01.00.000)        04-Dec-2013 19:15:51
+
+*** Options ***
+
+-subcommand=\\locust\17 Ei\Ei-é¿èKã≥çﬁ\R8é¿èK\document\mini_mcr2_ir_v101\mondai01\mondai01\Debug\mondai01.m16cl
+-noprelink
+-nomessage
+-list="\\locust\17 Ei\Ei-é¿èKã≥çﬁ\R8é¿èK\document\mini_mcr2_ir_v101\mondai01\mondai01\Debug\mondai01.map"
+-show=symbol,total_size
+-start=data_SE,bss_SE,data_SO,bss_SO,data_NE,bss_NE,data_NO,bss_NO,stack,istack,heap_NE/0400,rom_NE,rom_NO,data_SEI,data_SOI,data_NEI,data_NOI,switch_table,program,interrupt/08000,vector/0FED8
+-nologo
+-stack
+-total_size
+-input="\\locust\17 Ei\Ei-é¿èKã≥çﬁ\R8é¿èK\document\mini_mcr2_ir_v101\mondai01\mondai01\Debug\main.obj"
+-input="\\locust\17 Ei\Ei-é¿èKã≥çﬁ\R8é¿èK\document\mini_mcr2_ir_v101\mondai01\mondai01\Debug\startup.obj"
+-library="\\locust\17 Ei\Ei-é¿èKã≥çﬁ\R8é¿èK\document\mini_mcr2_ir_v101\mondai01\mondai01\Debug\mondai01.lib"
+-output="\\locust\17 Ei\Ei-é¿èKã≥çﬁ\R8é¿èK\document\mini_mcr2_ir_v101\mondai01\mondai01\Debug\mondai01.abs"
+-change_message=information=1100,1322,1410
+-end
+
+*** Error information ***
+
+** L3300 (F) Cannot open file : "\\locust\17 Ei\Ei-é¿èKã≥çﬁ\R8é¿èK\document\mini_mcr2_ir_v101\mondai01\mondai01\Debug\main.obj"

@@ -1,0 +1,723 @@
+Optimizing Linkage Editor (V.10.01.00.000)        13-Nov-2017 22:46:17
+
+*** Options ***
+
+-subcommand=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\uart0.m16cl
+-noprelink
+-nomessage
+-list="J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\uart0.map"
+-show=symbol,total_size
+-start=data_SE,bss_SE,data_SO,bss_SO,data_NE,bss_NE,data_NO,bss_NO,stack,istack,heap_NE/0400,rom_NE,rom_NO,data_SEI,data_SOI,data_NEI,data_NOI,switch_table,program,interrupt/08000,vector/0FED8
+-nologo
+-stack
+-total_size
+-input="J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\startup.obj"
+-input="J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\uart0.obj"
+-library="J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\uart0.lib"
+-output="J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\uart0.abs"
+-change_message=information=1100,1322,1410
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   2
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  0000040b         c   2
+bss_NE
+                                  0000040c  00000511       106   2
+data_NO
+                                  00000512  00000512         0   1
+bss_NO
+                                  00000512  00000512         0   1
+stack
+                                  00000512  00000611       100   1
+istack
+                                  00000612  00000711       100   1
+heap_NE
+                                  00000712  00000712         0   2
+data_SEI
+                                  00008000  00008000         0   1
+data_SOI
+                                  00008000  00008000         0   1
+data_NEI
+                                  00008000  0000800b         c   2
+data_NOI
+                                  0000800c  0000800c         0   1
+program
+                                  0000800c  00008195       18a   2
+interrupt
+                                  00008196  00008196         0   2
+vector
+                                  0000fed8  0000fed8         0   2
+fvector
+                                  0000ffd8  0000ffff        28   1
+
+*** Total Section Size ***
+
+RAMDATA SECTION:  00000312 Byte(s)
+ROMDATA SECTION:  00000034 Byte(s)
+PROGRAM SECTION:  0000018a Byte(s)
+
+*** ID code information ***
+
+CHARACTOR STRING=""
+NUMERICAL VALUE=
+  0000ffdf: ff
+  0000ffe3: ff
+  0000ffeb: ff
+  0000ffef: ff
+  0000fff3: ff
+  0000fff7: ff
+  0000fffb: ff
+
+*** Protect code or OFSREG code information ***
+
+  0000ffff: bf
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_NE
+FILE=mdata
+                                  00000400  0000040b         c
+  ___pool
+                                  00000400         6   data ,g         * 
+  ___memt
+                                  00000406         6   data ,g         * 
+
+SECTION=bss_NE
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\startup.obj
+                                  0000040c  0000050b       100
+  _heap_area
+                                  0000040c       100   data ,g         * 
+FILE=mdata
+                                  0000050c  00000511         6
+  __mnext
+                                  0000050c         2   data ,g         * 
+  __msize
+                                  0000050e         4   data ,g         * 
+
+SECTION=stack
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\startup.obj
+                                  00000512  00000611       100
+  __stack_top
+                                  00000612         0   none ,g         * 
+
+SECTION=istack
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\startup.obj
+                                  00000612  00000711       100
+  __istack_top
+                                  00000712         0   none ,g         * 
+
+SECTION=heap_NE
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\startup.obj
+                                  00000712  00000712         0
+  __heap_NE_top
+                                  00000712         0   none ,l         * 
+
+SECTION=data_NEI
+FILE=mdata
+                                  00008000  0000800b         c
+
+SECTION=program
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\startup.obj
+                                  0000800c  000080af        a4
+  __dummy_int
+                                  0000800c         6   func ,g         * 
+  _initsct
+                                  00008012        66   func ,g         * 
+  __program_top
+                                  00008012         0   none ,l         * 
+  _start
+                                  00008078        38   entry,g         * 
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\uart0.obj
+                                  000080b0  00008195        e6
+  _main
+                                  000080b0        28   func ,g         * 
+  _init
+                                  000080d8        60   func ,g         * 
+  $get_uart0
+                                  00008138        44   func ,g         * 
+  $put_uart0
+                                  0000817c        1a   func ,g         * 
+
+SECTION=interrupt
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\startup.obj
+                                  00008196  00008196         0
+  __interrupt_top
+                                  00008196         0   none ,l         * 
+
+SECTION=vector
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\startup.obj
+                                  0000fed8  0000fed8         0
+  __vector_top
+                                  0000fed8         0   none ,g         * 
+
+SECTION=fvector
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\startup.obj
+                                  0000ffd8  0000ffff        28
+  __fvector_top
+                                  0000ffd8         0   none ,l         * 
+
+Absolute value symbols
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\startup.obj
+  __R8C__
+                                  00000001         0   none ,l         * 
+  __SB__
+                                  00000400         0   none ,g         * 
+FILE=J:\project-space\WorkSpace35\r8c35a_ensyu\uart0\Debug\uart0.obj
+  _trcmr_addr
+                                  00000120         0   none ,l         * 
+  _trcsr_addr
+                                  00000123         0   none ,l         * 
+  _ssbr_addr
+                                  00000193         0   none ,l         * 
+  _intsr_addr
+                                  0000018e         0   none ,l         * 
+  _trd0_addr
+                                  00000146         0   none ,l         * 
+  _trdier0_addr
+                                  00000144         0   none ,l         * 
+  _adinsel_addr
+                                  000000d5         0   none ,l         * 
+  _sser_addr
+                                  0000019b         0   none ,l         * 
+  _traioc_addr
+                                  00000101         0   none ,l         * 
+  _sar_addr
+                                  0000019d         0   none ,l         * 
+  _dtcd0_addr
+                                  00002c40         0   none ,l         * 
+  _trcoer_addr
+                                  00000132         0   none ,l         * 
+  _ad2_addr
+                                  000000c4         0   none ,l         * 
+  _dtcen4_addr
+                                  0000008c         0   none ,l         * 
+  _fra1_addr
+                                  00000024         0   none ,l         * 
+  _trdmr_addr
+                                  00000138         0   none ,l         * 
+  _trcgrc_addr
+                                  0000012c         0   none ,l         * 
+  _trcior1_addr
+                                  00000125         0   none ,l         * 
+  _ssmr_addr
+                                  0000019a         0   none ,l         * 
+  _pd0_addr
+                                  000000e2         0   none ,l         * 
+  _adic_addr
+                                  0000004e         0   none ,l         * 
+  _sssr_addr
+                                  0000019c         0   none ,l         * 
+  _trd1ic_addr
+                                  00000049         0   none ,l         * 
+  _sscrl_addr
+                                  00000199         0   none ,l         * 
+  _wdtr_addr
+                                  0000000d         0   none ,l         * 
+  _trehr_addr
+                                  0000011a         0   none ,l         * 
+  _trdgrb1_addr
+                                  0000015a         0   none ,l         * 
+  _trddf0_addr
+                                  0000013e         0   none ,l         * 
+  _trdgrd1_addr
+                                  0000015e         0   none ,l         * 
+  _iccr1_addr
+                                  00000198         0   none ,l         * 
+  _trdgra1_addr
+                                  00000158         0   none ,l         * 
+  _trdcr0_addr
+                                  00000140         0   none ,l         * 
+  _trdgrc1_addr
+                                  0000015c         0   none ,l         * 
+  _trdecr_addr
+                                  00000135         0   none ,l         * 
+  _p1_addr
+                                  000000e1         0   none ,l         * 
+  _pm0_addr
+                                  00000004         0   none ,l         * 
+  _dtcd14_addr
+                                  00002cb0         0   none ,l         * 
+  _ad4_addr
+                                  000000c8         0   none ,l         * 
+  _fmr1_addr
+                                  000001b5         0   none ,l         * 
+  _trcpsr1_addr
+                                  00000183         0   none ,l         * 
+  _vca1_addr
+                                  00000033         0   none ,l         * 
+  _inten_addr
+                                  000001fa         0   none ,l         * 
+  _pur0_addr
+                                  000001e0         0   none ,l         * 
+  _tracr_addr
+                                  00000100         0   none ,l         * 
+  _dtcen6_addr
+                                  0000008e         0   none ,l         * 
+  _ssuiicsr_addr
+                                  0000018c         0   none ,l         * 
+  _u0c1_addr
+                                  000000a5         0   none ,l         * 
+  _fra3_addr
+                                  0000002f         0   none ,l         * 
+  _trcgra_addr
+                                  00000128         0   none ,l         * 
+  _intf_addr
+                                  000001fc         0   none ,l         * 
+  _pd2_addr
+                                  000000e6         0   none ,l         * 
+  _dtcd9_addr
+                                  00002c88         0   none ,l         * 
+  _s1ric_addr
+                                  00000054         0   none ,l         * 
+  _icmr_addr
+                                  0000019a         0   none ,l         * 
+  _icsr_addr
+                                  0000019c         0   none ,l         * 
+  _sstdrh_addr
+                                  00000195         0   none ,l         * 
+  _cmpa_addr
+                                  00000030         0   none ,l         * 
+  _trapre_addr
+                                  00000103         0   none ,l         * 
+  _trdoer2_addr
+                                  0000013c         0   none ,l         * 
+  _u2smr4_addr
+                                  000000bc         0   none ,l         * 
+  _trecr2_addr
+                                  0000011d         0   none ,l         * 
+  _timsr_addr
+                                  00000186         0   none ,l         * 
+  _tresec_addr
+                                  00000118         0   none ,l         * 
+  _p3_addr
+                                  000000e5         0   none ,l         * 
+  _ocd_addr
+                                  0000000c         0   none ,l         * 
+  _u1c1_addr
+                                  00000165         0   none ,l         * 
+  _dtcd16_addr
+                                  00002cc0         0   none ,l         * 
+  _trdstr_addr
+                                  00000137         0   none ,l         * 
+  _icier_addr
+                                  0000019b         0   none ,l         * 
+  _adcon1_addr
+                                  000000d7         0   none ,l         * 
+  _ad6_addr
+                                  000000cc         0   none ,l         * 
+  _vcac_addr
+                                  00000031         0   none ,l         * 
+  _dtcd7_addr
+                                  00002c78         0   none ,l         * 
+  _trecsr_addr
+                                  0000011e         0   none ,l         * 
+  _s0ric_addr
+                                  00000052         0   none ,l         * 
+  _dtcen0_addr
+                                  00000088         0   none ,l         * 
+  _inten1_addr
+                                  000001fb         0   none ,l         * 
+  _fra5_addr
+                                  0000002a         0   none ,l         * 
+  _trdocr_addr
+                                  0000013d         0   none ,l         * 
+  _pd4_addr
+                                  000000ea         0   none ,l         * 
+  _dacon_addr
+                                  000000dc         0   none ,l         * 
+  _cm1_addr
+                                  00000007         0   none ,l         * 
+  _sscrh_addr
+                                  00000198         0   none ,l         * 
+  _trdier1_addr
+                                  00000154         0   none ,l         * 
+  _trbrcsr_addr
+                                  00000181         0   none ,l         * 
+  _da1_addr
+                                  000000d9         0   none ,l         * 
+  _u2smr2_addr
+                                  000000be         0   none ,l         * 
+  _trdsr0_addr
+                                  00000143         0   none ,l         * 
+  _s1tic_addr
+                                  00000053         0   none ,l         * 
+  _dtcd20_addr
+                                  00002ce0         0   none ,l         * 
+  _p5_addr
+                                  000000e9         0   none ,l         * 
+  _trdpocr0_addr
+                                  00000145         0   none ,l         * 
+  _dtcd10_addr
+                                  00002c90         0   none ,l         * 
+  _vlt0_addr
+                                  000001f5         0   none ,l         * 
+  _mstcr_addr
+                                  00000008         0   none ,l         * 
+  _rmad0_addr
+                                  000001c0         0   none ,l         * 
+  _trdpmr_addr
+                                  00000139         0   none ,l         * 
+  _u2bcnic_addr
+                                  0000005e         0   none ,l         * 
+  _dtcd19_addr
+                                  00002cd8         0   none ,l         * 
+  _trdiorc1_addr
+                                  00000152         0   none ,l         * 
+  _u2c0_addr
+                                  000000ac         0   none ,l         * 
+  _dtcd5_addr
+                                  00002c68         0   none ,l         * 
+  _aier0_addr
+                                  000001c3         0   none ,l         * 
+  _dtcen2_addr
+                                  0000008a         0   none ,l         * 
+  _vcmp1ic_addr
+                                  00000072         0   none ,l         * 
+  _fra7_addr
+                                  00000015         0   none ,l         * 
+  _pd6_addr
+                                  000000ee         0   none ,l         * 
+  _trd0ic_addr
+                                  00000048         0   none ,l         * 
+  _trdiora1_addr
+                                  00000151         0   none ,l         * 
+  _trcgrd_addr
+                                  0000012e         0   none ,l         * 
+  _s2ric_addr
+                                  0000004c         0   none ,l         * 
+  _admod_addr
+                                  000000d4         0   none ,l         * 
+  _cm3_addr
+                                  00000009         0   none ,l         * 
+  _drr1_addr
+                                  000001f3         0   none ,l         * 
+  _s0tic_addr
+                                  00000051         0   none ,l         * 
+  _trbpre_addr
+                                  0000010c         0   none ,l         * 
+  _trbic_addr
+                                  00000058         0   none ,l         * 
+  _icdrt_addr
+                                  00000194         0   none ,l         * 
+  _trdpsr0_addr
+                                  00000184         0   none ,l         * 
+  _dtcd22_addr
+                                  00002cf0         0   none ,l         * 
+  _iccr2_addr
+                                  00000199         0   none ,l         * 
+  _u2sr1_addr
+                                  0000018b         0   none ,l         * 
+  _trccr1_addr
+                                  00000121         0   none ,l         * 
+  _dtcd12_addr
+                                  00002ca0         0   none ,l         * 
+  _dtctl_addr
+                                  00000080         0   none ,l         * 
+  _dtcd3_addr
+                                  00002c58         0   none ,l         * 
+  _ad1_addr
+                                  000000c2         0   none ,l         * 
+  _u1mr_addr
+                                  00000160         0   none ,l         * 
+  _trbsc_addr
+                                  0000010d         0   none ,l         * 
+  _ssuic_addr
+                                  0000004f         0   none ,l         * 
+  _u1sr_addr
+                                  00000189         0   none ,l         * 
+  _u1tb_addr
+                                  00000162         0   none ,l         * 
+  _dtcen5_addr
+                                  0000008d         0   none ,l         * 
+  _trcic_addr
+                                  00000047         0   none ,l         * 
+  _lincr2_addr
+                                  00000105         0   none ,l         * 
+  _fra0_addr
+                                  00000023         0   none ,l         * 
+  _u1rb_addr
+                                  00000166         0   none ,l         * 
+  _trcgrb_addr
+                                  0000012a         0   none ,l         * 
+  _iicic_addr
+                                  0000004f         0   none ,l         * 
+  _icdrr_addr
+                                  00000196         0   none ,l         * 
+  _vw0c_addr
+                                  00000038         0   none ,l         * 
+  _s2tic_addr
+                                  0000004b         0   none ,l         * 
+  _vw1c_addr
+                                  00000039         0   none ,l         * 
+  _u2mr_addr
+                                  000000a8         0   none ,l         * 
+  _trd1_addr
+                                  00000156         0   none ,l         * 
+  _p0_addr
+                                  000000e0         0   none ,l         * 
+  _u2tb_addr
+                                  000000aa         0   none ,l         * 
+  _vw2c_addr
+                                  0000003a         0   none ,l         * 
+  _prcr_addr
+                                  0000000a         0   none ,l         * 
+  _dtcd15_addr
+                                  00002cb8         0   none ,l         * 
+  _trcier_addr
+                                  00000122         0   none ,l         * 
+  _u2rb_addr
+                                  000000ae         0   none ,l         * 
+  _int1ic_addr
+                                  00000059         0   none ,l         * 
+  _dtcd1_addr
+                                  00002c48         0   none ,l         * 
+  _ad3_addr
+                                  000000c6         0   none ,l         * 
+  _fmr0_addr
+                                  000001b4         0   none ,l         * 
+  _trdfcr_addr
+                                  0000013a         0   none ,l         * 
+  _intcmp_addr
+                                  000001f8         0   none ,l         * 
+  _u0c0_addr
+                                  000000a4         0   none ,l         * 
+  _fra2_addr
+                                  00000025         0   none ,l         * 
+  _intf1_addr
+                                  000001fd         0   none ,l         * 
+  _fst_addr
+                                  000001b2         0   none ,l         * 
+  _pd1_addr
+                                  000000e3         0   none ,l         * 
+  _dtcd8_addr
+                                  00002c80         0   none ,l         * 
+  _tra_addr
+                                  00000104         0   none ,l         * 
+  _rstfr_addr
+                                  0000000b         0   none ,l         * 
+  _wdtc_addr
+                                  0000000f         0   none ,l         * 
+  _wdts_addr
+                                  0000000e         0   none ,l         * 
+  _treic_addr
+                                  0000004a         0   none ,l         * 
+  _pinsr_addr
+                                  0000018f         0   none ,l         * 
+  _trddf1_addr
+                                  0000013f         0   none ,l         * 
+  _fmrdyic_addr
+                                  00000041         0   none ,l         * 
+  _int2ic_addr
+                                  00000055         0   none ,l         * 
+  _trdcr1_addr
+                                  00000150         0   none ,l         * 
+  _trewk_addr
+                                  0000011b         0   none ,l         * 
+  _p2_addr
+                                  000000e4         0   none ,l         * 
+  _vd1ls_addr
+                                  00000036         0   none ,l         * 
+  _pm1_addr
+                                  00000005         0   none ,l         * 
+  _ssrdr_addr
+                                  00000196         0   none ,l         * 
+  _u1c0_addr
+                                  00000164         0   none ,l         * 
+  _dtcd17_addr
+                                  00002cc8         0   none ,l         * 
+  _trcdf_addr
+                                  00000131         0   none ,l         * 
+  _ad5_addr
+                                  000000ca         0   none ,l         * 
+  _fmr2_addr
+                                  000001b6         0   none ,l         * 
+  _trcadcr_addr
+                                  00000133         0   none ,l         * 
+  _dtcd6_addr
+                                  00002c70         0   none ,l         * 
+  _vca2_addr
+                                  00000034         0   none ,l         * 
+  _pur1_addr
+                                  000001e1         0   none ,l         * 
+  _dtcen1_addr
+                                  00000089         0   none ,l         * 
+  _u0brg_addr
+                                  000000a1         0   none ,l         * 
+  _fra4_addr
+                                  00000029         0   none ,l         * 
+  _pd3_addr
+                                  000000e7         0   none ,l         * 
+  _int3ic_addr
+                                  0000005a         0   none ,l         * 
+  _kien_addr
+                                  000001fe         0   none ,l         * 
+  _trdpsr1_addr
+                                  00000185         0   none ,l         * 
+  _trc_addr
+                                  00000126         0   none ,l         * 
+  _traic_addr
+                                  00000056         0   none ,l         * 
+  _cm0_addr
+                                  00000006         0   none ,l         * 
+  _vcmp2ic_addr
+                                  00000073         0   none ,l         * 
+  _ssmr2_addr
+                                  0000019d         0   none ,l         * 
+  _trdoer1_addr
+                                  0000013b         0   none ,l         * 
+  _trcior0_addr
+                                  00000124         0   none ,l         * 
+  _da0_addr
+                                  000000d8         0   none ,l         * 
+  _ssrdrh_addr
+                                  00000197         0   none ,l         * 
+  _u2smr5_addr
+                                  000000bb         0   none ,l         * 
+  _trdgrd0_addr
+                                  0000014e         0   none ,l         * 
+  _dtcd21_addr
+                                  00002ce8         0   none ,l         * 
+  _p2drr_addr
+                                  000001f1         0   none ,l         * 
+  _u2smr_addr
+                                  000000bf         0   none ,l         * 
+  _p4_addr
+                                  000000e8         0   none ,l         * 
+  _trccr2_addr
+                                  00000130         0   none ,l         * 
+  _dtcd11_addr
+                                  00002c98         0   none ,l         * 
+  _trdgra0_addr
+                                  00000148         0   none ,l         * 
+  _trdgrb0_addr
+                                  0000014a         0   none ,l         * 
+  _u0mr_addr
+                                  000000a0         0   none ,l         * 
+  _trdgrc0_addr
+                                  0000014c         0   none ,l         * 
+  _adcon0_addr
+                                  000000d6         0   none ,l         * 
+  _ad7_addr
+                                  000000ce         0   none ,l         * 
+  _int4ic_addr
+                                  00000046         0   none ,l         * 
+  _u0sr_addr
+                                  00000188         0   none ,l         * 
+  _trdiorc0_addr
+                                  00000142         0   none ,l         * 
+  _u0tb_addr
+                                  000000a2         0   none ,l         * 
+  _dtcd4_addr
+                                  00002c60         0   none ,l         * 
+  _u0rb_addr
+                                  000000a6         0   none ,l         * 
+  _dtcen3_addr
+                                  0000008b         0   none ,l         * 
+  _cspr_addr
+                                  0000001c         0   none ,l         * 
+  _fra6_addr
+                                  0000002b         0   none ,l         * 
+  _tramr_addr
+                                  00000102         0   none ,l         * 
+  _sstdr_addr
+                                  00000194         0   none ,l         * 
+  _pd5_addr
+                                  000000eb         0   none ,l         * 
+  _trasr_addr
+                                  00000180         0   none ,l         * 
+  _trdiora0_addr
+                                  00000141         0   none ,l         * 
+  _trbcr_addr
+                                  00000108         0   none ,l         * 
+  _trbocr_addr
+                                  00000109         0   none ,l         * 
+  _u2brg_addr
+                                  000000a9         0   none ,l         * 
+  _trcpsr0_addr
+                                  00000182         0   none ,l         * 
+  _drr0_addr
+                                  000001f2         0   none ,l         * 
+  _p1drr_addr
+                                  000001f0         0   none ,l         * 
+  _cpsrf_addr
+                                  00000028         0   none ,l         * 
+  _u2smr3_addr
+                                  000000bd         0   none ,l         * 
+  _trdsr1_addr
+                                  00000153         0   none ,l         * 
+  _trecr1_addr
+                                  0000011c         0   none ,l         * 
+  _dtcd23_addr
+                                  00002cf8         0   none ,l         * 
+  _tremin_addr
+                                  00000119         0   none ,l         * 
+  _linst_addr
+                                  00000107         0   none ,l         * 
+  _u2sr0_addr
+                                  0000018a         0   none ,l         * 
+  _p6_addr
+                                  000000ec         0   none ,l         * 
+  _int0ic_addr
+                                  0000005d         0   none ,l         * 
+  _trdpocr1_addr
+                                  00000155         0   none ,l         * 
+  _trbpr_addr
+                                  0000010e         0   none ,l         * 
+  _dtcd13_addr
+                                  00002ca8         0   none ,l         * 
+  _vlt1_addr
+                                  000001f6         0   none ,l         * 
+  _trbmr_addr
+                                  0000010b         0   none ,l         * 
+  _rmad1_addr
+                                  000001c4         0   none ,l         * 
+  _dtcd18_addr
+                                  00002cd0         0   none ,l         * 
+  _urxdf_addr
+                                  000000b0         0   none ,l         * 
+  _u2c1_addr
+                                  000000ad         0   none ,l         * 
+  _kupic_addr
+                                  0000004d         0   none ,l         * 
+  _dtcd2_addr
+                                  00002c50         0   none ,l         * 
+  _lincr_addr
+                                  00000106         0   none ,l         * 
+  _ad0_addr
+                                  000000c0         0   none ,l         * 
+  _aier1_addr
+                                  000001c7         0   none ,l         * 
+  _u1brg_addr
+                                  00000161         0   none ,l         * 
+  _trdadcr_addr
+                                  00000136         0   none ,l         * 
+  _trbioc_addr
+                                  0000010a         0   none ,l         * 
+  __R8C__
+                                  00000001         0   none ,l         * 
+  _ocvrefcr_addr
+                                  00000026         0   none ,l         * 
+FILE=mdata
+  __R8C__
+                                  00000001         0   none ,l         * 
+
+*** Delete Symbols ***
+
+SYMBOL                                SIZE    INFO

@@ -1,0 +1,20 @@
+-noprelink
+-nomessage
+-list="\\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\WorkSpace35\mini_mcr2\mini_mcr\Debug\mini_mcr.map"
+-show=symbol,total_size
+-optimize=branch
+-start=data_SE,bss_SE,data_SO,bss_SO,data_NE,bss_NE,data_NO,bss_NO,stack,istack,heap_NE/0400,rom_NE,rom_NO,data_SEI,data_SOI,data_NEI,data_NOI,switch_table,program,interrupt/08000,vector/0FED8
+-nologo
+-stack
+-total_size
+-library="\\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\WorkSpace35\mini_mcr2\mini_mcr\Debug\mini_mcr.lib"
+-input="\\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\WorkSpace35\mini_mcr2\mini_mcr\Debug\mini_mcr.obj"
+-input="\\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\WorkSpace35\mini_mcr2\mini_mcr\Debug\startup.obj"
+-output="\\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\WorkSpace35\mini_mcr2\mini_mcr\Debug\mini_mcr.abs"
+-change_message=information=1100,1322,1410
+-end
+-input="\\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\WorkSpace35\mini_mcr2\mini_mcr\Debug\mini_mcr.abs"
+-form=stype
+-output="\\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\WorkSpace35\mini_mcr2\mini_mcr\Debug\mini_mcr.mot"
+-exit
+

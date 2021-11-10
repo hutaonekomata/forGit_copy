@@ -1,0 +1,6 @@
+-D__UART0__
+-c
+-finfo
+-dir "C:\Documents and Settings\2590oohi\デスクトップ\作業\mcr\MINI_MCR\soft\cpu\mini_mcr_ver2_rev0_5\mini_mcr_ver2_rev0_5\Debug"
+-R8C
+"C:\Documents and Settings\2590oohi\デスクトップ\作業\mcr\MINI_MCR\soft\cpu\mini_mcr_ver2_rev0_5\mini_mcr_ver2_rev0_5\mini_mcr_ver2_rev0_5.c"

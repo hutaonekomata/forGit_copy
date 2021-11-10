@@ -1,0 +1,8 @@
+-lang=c
+-I"..\..\..\common_r8c35a"
+-D__UART0__
+-c
+-finfo
+-dir "\\locust\17 Ei\Ei-é¿èKã≥çﬁ\R8é¿èK\document\mini_mcr2_ir_v101\mondai01\mondai01\Debug"
+-R8C
+"\\locust\17 Ei\Ei-é¿èKã≥çﬁ\R8é¿èK\document\mini_mcr2_ir_v101\mondai01\mondai01\main.c"

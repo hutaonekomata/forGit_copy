@@ -1,0 +1,267 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\bin\ln30.exe @C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\Debug\timer_rc_pwm.m16cl
+
+# ID CODE DATA
+.ID  "#FFFFFFFFFFFFFF"
+
+# OPTION FUNCTION SELECT REGISTER
+.OFSREG  BFH
+
+# LINK FILE INFORMATION
+startup (C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\Debug\startup.r30)
+	Aug  6 12:00:35 2014
+
+timer_rc_pwm (C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\Debug\timer_rc_pwm.r30)
+	Aug  6 12:00:35 2014
+
+_i4div (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib)
+	Mar 16 11:54:38 2009
+
+mdata (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib)
+	Mar 16 11:55:03 2009
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          REL DATA    000400 000000 2     startup
+bss_SE                           REL DATA    000400 000000 2     startup
+data_SO                          REL DATA    000400 000000       startup
+bss_SO                           REL DATA    000400 000000       startup
+data_NE                          REL DATA    000400 000000 2     startup
+                                 REL DATA    000400 00000C 2     mdata
+bss_NE                           REL DATA    00040C 000000 2     startup
+                                 REL DATA    00040C 000100 2     startup
+                                 REL DATA    00050C 000008 2     timer_rc_pwm
+                                 REL DATA    000514 000006 2     mdata
+data_NO                          REL DATA    00051A 000000       startup
+bss_NO                           REL DATA    00051A 000000       startup
+stack                            REL DATA    00051A 000100       startup
+istack                           REL DATA    00061A 000100       startup
+heap_NE                          REL DATA    00071A 000000 2     startup
+rom_NE                           REL ROMDATA 008000 000218 2     timer_rc_pwm
+data_SEI                         REL ROMDATA 008218 000000       startup
+data_SOI                         REL ROMDATA 008218 000000       startup
+data_NEI                         REL ROMDATA 008218 000000       startup
+                                 REL ROMDATA 008218 00000C       mdata
+data_NOI                         REL ROMDATA 008224 000000       startup
+program                          REL CODE    008224 000005 2     startup
+                                 REL CODE    00822A 00009E 2     startup
+                                 REL CODE    0082C8 000191 2     timer_rc_pwm
+                                 REL CODE    00845A 000083 2     _i4div
+interrupt                        REL CODE    0084DE 000000 2     startup
+vector                           REL ROMDATA 00FED8 000100 2     startup
+fvector                          ABS ROMDATA 00FFD8 000028       startup
+# Total -------------------------------------------------------------------
+                                     DATA           00031A(0000794) Byte(s)
+                                     ROMDATA        00034C(0000844) Byte(s)
+                                     CODE           0002B9(0000697) Byte(s)
+
+##########################################
+# VARIABLE VECTOR TABLE INFORMATION      #
+##########################################
+No.  Address               No.  Address               No.  Address
+0    __dummy_int           1    __dummy_int           2    __dummy_int           
+3    __dummy_int           4    __dummy_int           5    __dummy_int           
+6    __dummy_int           7    __dummy_int           8    __dummy_int           
+9    __dummy_int           10   __dummy_int           11   __dummy_int           
+12   __dummy_int           13   __dummy_int           14   __dummy_int           
+15   __dummy_int           16   __dummy_int           17   __dummy_int           
+18   __dummy_int           19   __dummy_int           20   __dummy_int           
+21   __dummy_int           22   __dummy_int           23   __dummy_int           
+24   _intTRB               25   __dummy_int           26   __dummy_int           
+27   __dummy_int           28   __dummy_int           29   __dummy_int           
+30   __dummy_int           31   __dummy_int           32   __dummy_int           
+33   __dummy_int           34   __dummy_int           35   __dummy_int           
+36   __dummy_int           37   __dummy_int           38   __dummy_int           
+39   __dummy_int           40   __dummy_int           41   __dummy_int           
+42   __dummy_int           43   __dummy_int           44   __dummy_int           
+45   __dummy_int           46   __dummy_int           47   __dummy_int           
+48   __dummy_int           49   __dummy_int           50   __dummy_int           
+51   __dummy_int           52   __dummy_int           53   __dummy_int           
+54   __dummy_int           55   __dummy_int           56   __dummy_int           
+57   __dummy_int           58   __dummy_int           59   __dummy_int           
+60   __dummy_int           61   __dummy_int           62   __dummy_int           
+63   __dummy_int           
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$beep              00830c  __dummy_int        008224  __i4div            00845a
+__istack_top       00071a  __memt             000406  __mnext            000514
+__msize            000516  __pool             000400  __stack_top        00061a
+__vector_top       00fed8  _cnt_rb            00050c  _heap_area         00040c
+_init              00836c  _initsct           00822a  _intTRB            0083ea
+_main              0082c8  _music_data        008000  _music_dim         000510
+_music_flag        000512  _start             008290  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ startup ( C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\Debug\startup.r30 )
+@ timer_rc_pwm ( C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\Debug\timer_rc_pwm.r30 )
+@ _i4div ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ startup ( C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\Debug\startup.r30 )
+@ timer_rc_pwm ( C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\Debug\timer_rc_pwm.r30 )
+@ _i4div ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ startup ( C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\Debug\startup.r30 )
+@ timer_rc_pwm ( C:\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\Debug\timer_rc_pwm.r30 )
+@ _i4div ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   2
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  0000040b         c   2
+bss_NE
+                                  0000040c  00000519       10e   2
+data_NO
+                                  0000051a  0000051a         0   1
+bss_NO
+                                  0000051a  0000051a         0   1
+stack
+                                  0000051a  00000619       100   1
+istack
+                                  0000061a  00000719       100   1
+heap_NE
+                                  0000071a  0000071a         0   2
+rom_NE
+                                  00008000  00008217       218   2
+data_SEI
+                                  00008218  00008218         0   1
+data_SOI
+                                  00008218  00008218         0   1
+data_NEI
+                                  00008218  00008223         c   1
+data_NOI
+                                  00008224  00008224         0   1
+program
+                                  00008224  000084dc       2b9   2
+interrupt
+                                  000084de  000084de         0   2
+vector
+                                  0000fed8  0000ffd7       100   2
+fvector
+                                  0000ffd8  0000ffff        28   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_NE
+FILE=mdata
+                                  00000400  0000040b         c
+  __SB__
+                                  00000400         0   none ,g         0
+  __memt
+                                  00000406         0   none ,g         0
+  __pool
+                                  00000400         0   none ,g         0
+
+SECTION=bss_NE
+FILE=C:/WorkSpace35/r8c35a_ensyu/timer_rc_pwm/startup
+                                  0000040c  0000050b       100
+  _heap_area
+                                  0000040c       100   data ,g         0
+
+FILE=C:/WorkSpace35/r8c35a_ensyu/timer_rc_pwm/timer_rc_pwm
+                                  0000050c  00000513         8
+  _cnt_rb
+                                  0000050c         4   data ,g         0
+  _music_dim
+                                  00000510         2   data ,g         0
+  _music_flag
+                                  00000512         2   data ,g         0
+
+FILE=mdata
+                                  00000514  00000519         6
+  __mnext
+                                  00000514         0   none ,g         0
+  __msize
+                                  00000516         0   none ,g         0
+
+SECTION=istack
+FILE=C:/WorkSpace35/r8c35a_ensyu/timer_rc_pwm/startup
+                                  0000061a  00000719       100
+  __stack_top
+                                  0000061a         0   none ,g         0
+
+SECTION=heap_NE
+FILE=C:/WorkSpace35/r8c35a_ensyu/timer_rc_pwm/startup
+                                  0000071a  0000071a         0
+  __istack_top
+                                  0000071a         0   none ,g         0
+
+SECTION=rom_NE
+FILE=C:/WorkSpace35/r8c35a_ensyu/timer_rc_pwm/timer_rc_pwm
+                                  00008000  00008217       218
+  _music_data
+                                  00008000       218   data ,g         0
+
+SECTION=program
+FILE=C:/WorkSpace35/r8c35a_ensyu/timer_rc_pwm/startup
+                                  00008224  00008228         5
+  __dummy_int
+                                  00008224         5   func ,g         0
+
+FILE=C:/WorkSpace35/r8c35a_ensyu/timer_rc_pwm/startup
+                                  0000822a  000082c7        9e
+  _initsct
+                                  0000822a        65   func ,g         0
+
+FILE=C:/WorkSpace35/r8c35a_ensyu/timer_rc_pwm/timer_rc_pwm
+                                  000082c8  00008458       191
+  _main
+                                  000082c8        44   func ,g         0
+  $beep
+                                  0000830c        5f   func ,g         0
+  _init
+                                  0000836c        7f   func ,g         0
+  _intTRB
+                                  000083ea        6f   func ,g         0
+
+FILE=_i4div
+                                  0000845a  000084dc        83
+  __i4div
+                                  0000845a        83   func ,g         0
+
+SECTION=vector
+FILE=C:/WorkSpace35/r8c35a_ensyu/timer_rc_pwm/startup
+                                  0000fed8  0000fed8         0
+  __vector_top
+                                  0000fed8         0   none ,g         0
+

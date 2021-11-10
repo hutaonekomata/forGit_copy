@@ -1,0 +1,7 @@
+-I"..\..\..\common_r8c35a"
+-D__UART0__
+-c
+-finfo
+-dir "E:\WorkSpace\r8c35a_ensyu\io2\Debug"
+-R8C
+"E:\WorkSpace\r8c35a_ensyu\io2\io2.c"

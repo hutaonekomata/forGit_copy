@@ -1,0 +1,61 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"11.0" 
+[WORKSPACE_DETAILS]
+"r8c35a_ensyu" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\old_version_10.0_001r8c35a_ensyu.hws" "M16C" "Renesas M16C Standard" 
+[SHARED_WORKSPACE_CONTROL_STATUS]
+"" "" "" 
+"" "" "" 
+[PROJECTS]
+"ad" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\ad" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\ad\ad.hwp" 0 
+"ad_kurikaeshi" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\ad_kurikaeshi" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\ad_kurikaeshi\ad_kurikaeshi.hwp" 0 
+"ad_kurikaeshi_souin" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\ad_kurikaeshi_souin" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\ad_kurikaeshi_souin\ad_kurikaeshi_souin.hwp" 0 
+"data_flash" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\data_flash" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\data_flash\data_flash.hwp" 0 
+"i2c_eeprom" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\i2c_eeprom" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\i2c_eeprom\i2c_eeprom.hwp" 0 
+"int_interrupt" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\int_interrupt" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\int_interrupt\int_interrupt.hwp" 0 
+"io" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\io" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\io\io.hwp" 0 
+"io2" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\io2" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\io2\io2.hwp" 0 
+"microsw" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\microsw" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\microsw\microsw.hwp" 0 
+"motor" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\motor" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\motor\motor.hwp" 0 
+"pushsw" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\pushsw" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\pushsw\pushsw.hwp" 0 
+"sensor_led" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\sensor_led" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\sensor_led\sensor_led.hwp" 0 
+"servo" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\servo" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\servo\servo.hwp" 0 
+"timer1" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer1" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer1\timer1.hwp" 0 
+"timer2" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer2" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer2\timer2.hwp" 0 
+"timer_ra_counter" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_ra_counter" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_ra_counter\timer_ra_counter.hwp" 0 
+"timer_ra_pulsein" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_ra_pulsein" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_ra_pulsein\timer_ra_pulsein.hwp" 0 
+"timer_rc_pwm" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rc_pwm" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rc_pwm\timer_rc_pwm.hwp" 0 
+"timer_rd_doukipwm" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_doukipwm" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_doukipwm\timer_rd_doukipwm.hwp" 0 
+"timer_rd_pwm6" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_pwm6" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_pwm6\timer_rd_pwm6.hwp" 0 
+"uart0" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\uart0" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\uart0\uart0.hwp" 0 
+"uart0_printf" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\uart0_printf" "\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\uart0_printf\uart0_printf.hwp" 0 
+[INFORMATION]
+"ワークスペース情報がありません" 
+[SCRAP]
+[PROJECT_DEPENDENCY]
+[WORKSPACE_PROPERTIES]
+[HELP_FILES]
+[GENERAL_DATA_PROJECT]
+[USERMENUTOOLS]
+[CUSTOMPLACEHOLDERS]
+[MAKEFILE_BUILD_INFO]
+"$(WORKSPDIR)\make\$(PROJECTNAME)_$(CONFIGNAME).mak" "" "$(WORKSPDIR)\make" 0 0 0 
+[VD_CONFIGURATION_OPTIONS]
+"ACTIVE_DESKTOP" "0" 
+[VD_CONFIGURATIONS]
+"0" "Default1" "1" 
+"1" "Default2" "1" 
+"2" "Default3" "1" 
+"3" "Default4" "1" 
+[OPTIONS_DEBUG_TAB]
+0 0 0 0 0 
+[VCS]
+"" "" "" 0 
+[VCS_PROJECT]
+[MAKEFILE_ENV_STRINGS]
+[MAKEFILE_ENV_FLAGS]
+1 0 0 
+[MAKEFILE_CLEAN_INFO]
+"" 
+[END]

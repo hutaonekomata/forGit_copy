@@ -1,0 +1,8 @@
+-I"..\..\..\common_r8c35a"
+-D__UART0__
+-c
+-finfo
+-dir "C:\WorkSpace\mini_mcr2\mini_mcr_test\Debug"
+-fETI
+-R8C
+"C:\WorkSpace\mini_mcr2\mini_mcr_test\mini_mcr_test.c"

@@ -1,0 +1,7 @@
+-L "r8clib"
+-G
+-MS
+-O "C:\Documents and Settings\2590oohi\デスクトップ\作業\mcr\MINI_MCR\soft\cpu\mini_mcr_ver2_rev0_5\mini_mcr\Debug\mini_mcr_ver2_rev0_5.x30"
+-R8C
+"C:\Documents and Settings\2590oohi\デスクトップ\作業\mcr\MINI_MCR\soft\cpu\mini_mcr_ver2_rev0_5\mini_mcr\Debug\ncrt0.r30"
+"C:\Documents and Settings\2590oohi\デスクトップ\作業\mcr\MINI_MCR\soft\cpu\mini_mcr_ver2_rev0_5\mini_mcr\Debug\mini_mcr.r30"

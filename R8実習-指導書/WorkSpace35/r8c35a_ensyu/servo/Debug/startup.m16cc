@@ -1,0 +1,7 @@
+-I"..\..\..\common_r8c35a"
+-D__UART0__
+-c
+-finfo
+-dir "Z:\WorkSpace\r8c35a_ensyu\servo\Debug"
+-R8C
+"Z:\WorkSpace\r8c35a_ensyu\servo\startup.c"

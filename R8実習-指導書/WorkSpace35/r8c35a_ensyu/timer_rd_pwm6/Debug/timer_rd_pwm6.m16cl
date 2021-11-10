@@ -1,0 +1,19 @@
+-noprelink
+-nomessage
+-list="\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_pwm6\Debug\timer_rd_pwm6.map"
+-show=symbol,total_size
+-start=data_SE,bss_SE,data_SO,bss_SO,data_NE,bss_NE,data_NO,bss_NO,stack,istack,heap_NE/0400,rom_NE,rom_NO,data_SEI,data_SOI,data_NEI,data_NOI,switch_table,program,interrupt/08000,vector/0FED8
+-nologo
+-stack
+-total_size
+-input="\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_pwm6\Debug\startup.obj"
+-library="\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_pwm6\Debug\timer_rd_pwm6.lib"
+-input="\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_pwm6\Debug\timer_rd_pwm6.obj"
+-output="\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_pwm6\Debug\timer_rd_pwm6.abs"
+-change_message=information=1100,1322,1410
+-end
+-input="\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_pwm6\Debug\timer_rd_pwm6.abs"
+-form=stype
+-output="\\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\WorkSpace35\r8c35a_ensyu\timer_rd_pwm6\Debug\timer_rd_pwm6.mot"
+-exit
+

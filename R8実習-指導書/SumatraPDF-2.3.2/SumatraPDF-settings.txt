@@ -1,0 +1,423 @@
+﻿# For documentation, see http://blog.kowalczyk.info/software/sumatrapdf/settings2.3.html
+
+MainWindowBackground = #80f0f280
+EscToExit = false
+ReuseInstance = false
+FixedPageUI [
+	TextColor = #000000
+	BackgroundColor = #ffffff
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+]
+EbookUI [
+	FontName = Georgia
+	FontSize = 12.5
+	TextColor = #5f4b32
+	BackgroundColor = #fbf0d9
+	UseFixedPageUI = false
+]
+ComicBookUI [
+	WindowMargin = 0 0 0 0
+	PageSpacing = 4 4
+	CbxMangaMode = false
+]
+ChmUI [
+	UseFixedPageUI = false
+]
+ExternalViewers [
+]
+ZoomLevels = 8.33 12.5 18 25 33.33 50 66.67 75 100 125 150 200 300 400 600 800 1000 1200 1600 2000 2400 3200 4800 6400
+ZoomIncrement = 0
+PrinterDefaults [
+	PrintScale = shrink
+	PrintAsImage = false
+]
+ForwardSearch [
+	HighlightOffset = 0
+	HighlightWidth = 15
+	HighlightColor = #ff8165
+	HighlightPermanent = false
+]
+
+RememberStatePerDocument = true
+UiLanguage = ja
+ShowToolbar = true
+ShowFavorites = false
+AssociateSilently = false
+CheckForUpdates = false
+RememberOpenedFiles = true
+UseSysColors = false
+EnableTeXEnhancements = false
+DefaultDisplayMode = automatic
+DefaultZoom = fit page
+WindowState = 1
+WindowPos = 953 0 974 1040
+ShowToc = true
+SidebarDx = 277
+TocDy = 0
+ShowStartPage = true
+
+FileStates [
+	[
+		FilePath = \\locust\17 Ei\Ei2-ハード技\Ａ／Ｄ.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 29
+		PageNo = 4
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1040
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\2．timer・割り込み実習資料\マイコン実習2-2(timer).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1040
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\2．timer・割り込み実習資料\実習内容（割り込み）.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1047
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\2．timer・割り込み実習資料\マイコン実習2-1(timer).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 0 974 1047
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\1．初回・I／O開発環境\マイコン実習1(IO).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 211
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1040
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\1．初回・I／O開発環境\R8初回準備とIO制御.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 1
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = 953 0 974 1040
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\4．UART実習資料\UART実習.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 704
+		PageNo = 9
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 467 114 1300 728
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\4．UART実習資料\UART実習(ver.2).pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 26
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 467 114 1300 728
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\4．UART実習資料\レポートについて（UART）.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 1
+		WindowPos = -7 0 697 735
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = \\locust\17 Ei\Ei-実習教材(R8マイコン)\R8実習-指導書\3．AD実習資料\二重積分型A-D変換（論文Ｓ41）.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = false
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 1845
+		PageNo = 1
+		Zoom = fit width
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 467 114 1300 728
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = F:\ものつくり大会(電子回路組立)\ものづくり大会資料\2014.2実施\回路図の表記について.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 2
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 402 0 562 728
+		ShowToc = false
+		SidebarDx = 420
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = F:\ものつくり大会(電子回路組立)\ものづくり大会資料\2014.2実施\第２回静岡県ものづくり大会競技仕様書20140115.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 18
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 402 0 562 728
+		ShowToc = false
+		SidebarDx = 420
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\USB1\教材\選択ハード技\テスト問題\新しいフォルダー\J2C33P-03.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 670 24 562 728
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\USB1\教材\選択ハード技\テスト問題\新しいフォルダー\J2C33P-05.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 670 24 562 728
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\USB1\教材\選択ハード技\テスト問題\新しいフォルダー\J2C33P-04.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 670 24 562 728
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\USB1\教材\選択ハード技\テスト問題\新しいフォルダー\J2C46-03.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 670 24 562 728
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\USB1\教材\選択ハード技\テスト問題\新しいフォルダー\J2C46-05.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 670 24 562 728
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+	[
+		FilePath = G:\USB1\教材\選択ハード技\テスト問題\新しいフォルダー\J2C46-04.pdf
+		Favorites [
+		]
+		IsPinned = false
+		IsMissing = true
+		OpenCount = 0
+		UseDefaultState = false
+		DisplayMode = continuous
+		ScrollPos = -1 -1
+		PageNo = 1
+		Zoom = fit page
+		Rotation = 0
+		WindowState = 2
+		WindowPos = 670 24 562 728
+		ShowToc = false
+		SidebarDx = 277
+		DisplayR2L = false
+		ReparseIdx = 0
+	]
+]
+TimeOfLastUpdateCheck = 0 0
+OpenCountWeek = 519

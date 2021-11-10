@@ -1,0 +1,9 @@
+-lang=c
+-I"..\..\..\common_r8c35a"
+-D__UART0__
+-c
+-finfo
+-dir "\\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\WorkSpace35\mini_mcr2\mini_mcr\Debug"
+-fETI
+-R8C
+"\\locust\17 Ei\Ei-実習教材（R8マイコン ）\R8実習-指導書\WorkSpace35\mini_mcr2\mini_mcr\startup.c"

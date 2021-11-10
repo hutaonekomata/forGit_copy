@@ -1,0 +1,205 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\bin\ln30.exe @E:\WorkSpace\r8c35a_ensyu\wazafes_\Debug\waza_fes01.m16cl
+
+# ID CODE DATA
+.ID  "#FFFFFFFFFFFFFF"
+
+# OPTION FUNCTION SELECT REGISTER
+.OFSREG  BFH
+
+# LINK FILE INFORMATION
+main (E:\WorkSpace\r8c35a_ensyu\wazafes_\Debug\main.r30)
+	Dec  3 13:58:08 2013
+
+startup (E:\WorkSpace\r8c35a_ensyu\wazafes_\Debug\startup.r30)
+	Dec  3 13:58:08 2013
+
+mdata (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib)
+	Mar 16 11:55:03 2009
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          REL DATA    000400 000000 2     startup
+bss_SE                           REL DATA    000400 000000 2     startup
+data_SO                          REL DATA    000400 000000       startup
+bss_SO                           REL DATA    000400 000000       startup
+data_NE                          REL DATA    000400 000000 2     startup
+                                 REL DATA    000400 00000C 2     mdata
+bss_NE                           REL DATA    00040C 000000 2     startup
+                                 REL DATA    00040C 000100 2     startup
+                                 REL DATA    00050C 000006 2     mdata
+data_NO                          REL DATA    000512 000000       startup
+bss_NO                           REL DATA    000512 000000       startup
+stack                            REL DATA    000512 000100       startup
+istack                           REL DATA    000612 000100       startup
+heap_NE                          REL DATA    000712 000000 2     startup
+data_SEI                         REL ROMDATA 008000 000000       startup
+data_SOI                         REL ROMDATA 008000 000000       startup
+data_NEI                         REL ROMDATA 008000 000000       startup
+                                 REL ROMDATA 008000 00000C       mdata
+data_NOI                         REL ROMDATA 00800C 000000       startup
+program                          REL CODE    00800C 0000B8 2     main
+                                 REL CODE    0080C4 000005 2     startup
+                                 REL CODE    0080CA 00009E 2     startup
+interrupt                        REL CODE    008168 000000 2     startup
+vector                           REL ROMDATA 00FED8 000000 2     startup
+fvector                          ABS ROMDATA 00FFD8 000028       startup
+# Total -------------------------------------------------------------------
+                                     DATA           000312(0000786) Byte(s)
+                                     ROMDATA        000034(0000052) Byte(s)
+                                     CODE           00015C(0000348) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$led_out           0080a0  __dummy_int        0080c4  __istack_top       000712
+__memt             000406  __mnext            00050c  __msize            00050e
+__pool             000400  __stack_top        000612  __vector_top       00fed8
+_dipsw_get         008074  _heap_area         00040c  _init              008026
+_initsct           0080ca  _main              00800c  _start             008130
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ main ( E:\WorkSpace\r8c35a_ensyu\wazafes_\Debug\main.r30 )
+@ startup ( E:\WorkSpace\r8c35a_ensyu\wazafes_\Debug\startup.r30 )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ main ( E:\WorkSpace\r8c35a_ensyu\wazafes_\Debug\main.r30 )
+@ startup ( E:\WorkSpace\r8c35a_ensyu\wazafes_\Debug\startup.r30 )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ main ( E:\WorkSpace\r8c35a_ensyu\wazafes_\Debug\main.r30 )
+@ startup ( E:\WorkSpace\r8c35a_ensyu\wazafes_\Debug\startup.r30 )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r00\lib30\r8clib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   2
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  0000040b         c   2
+bss_NE
+                                  0000040c  00000511       106   2
+data_NO
+                                  00000512  00000512         0   1
+bss_NO
+                                  00000512  00000512         0   1
+stack
+                                  00000512  00000611       100   1
+istack
+                                  00000612  00000711       100   1
+heap_NE
+                                  00000712  00000712         0   2
+data_SEI
+                                  00008000  00008000         0   1
+data_SOI
+                                  00008000  00008000         0   1
+data_NEI
+                                  00008000  0000800b         c   1
+data_NOI
+                                  0000800c  0000800c         0   1
+program
+                                  0000800c  00008167       15c   2
+interrupt
+                                  00008168  00008168         0   2
+vector
+                                  0000fed8  0000fed8         0   2
+fvector
+                                  0000ffd8  0000ffff        28   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_NE
+FILE=mdata
+                                  00000400  0000040b         c
+  __SB__
+                                  00000400         0   none ,g         0
+  __memt
+                                  00000406         0   none ,g         0
+  __pool
+                                  00000400         0   none ,g         0
+
+SECTION=bss_NE
+FILE=E:/WorkSpace/r8c35a_ensyu/wazafes_/startup
+                                  0000040c  0000050b       100
+  _heap_area
+                                  0000040c       100   data ,g         0
+
+FILE=mdata
+                                  0000050c  00000511         6
+  __mnext
+                                  0000050c         0   none ,g         0
+  __msize
+                                  0000050e         0   none ,g         0
+
+SECTION=istack
+FILE=E:/WorkSpace/r8c35a_ensyu/wazafes_/startup
+                                  00000612  00000711       100
+  __stack_top
+                                  00000612         0   none ,g         0
+
+SECTION=heap_NE
+FILE=E:/WorkSpace/r8c35a_ensyu/wazafes_/startup
+                                  00000712  00000712         0
+  __istack_top
+                                  00000712         0   none ,g         0
+
+SECTION=program
+FILE=E:/WorkSpace/r8c35a_ensyu/wazafes_/main
+                                  0000800c  000080c3        b8
+  _main
+                                  0000800c        19   func ,g         0
+  _init
+                                  00008026        4e   func ,g         0
+  _dipsw_get
+                                  00008074        2c   func ,g         0
+
+FILE=E:/WorkSpace/r8c35a_ensyu/wazafes_/startup
+                                  000080c4  000080c8         5
+  __dummy_int
+                                  000080c4         5   func ,g         0
+
+FILE=E:/WorkSpace/r8c35a_ensyu/wazafes_/startup
+                                  000080ca  00008167        9e
+  _initsct
+                                  000080ca        65   func ,g         0
+
+SECTION=vector
+FILE=E:/WorkSpace/r8c35a_ensyu/wazafes_/startup
+                                  0000fed8  0000fed8         0
+  __vector_top
+                                  0000fed8         0   none ,g         0
+

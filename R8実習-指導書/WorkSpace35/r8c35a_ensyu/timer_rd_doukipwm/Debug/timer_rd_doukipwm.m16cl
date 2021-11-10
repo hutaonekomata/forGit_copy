@@ -1,0 +1,8 @@
+-L "r8clib"
+-G
+-MS
+-O "Z:\WorkSpace\r8c35a_ensyu\timer_rd_doukipwm\Debug\timer_rd_doukipwm.x30"
+-ORDER data_SE=0400,bss_SE,data_SO,bss_SO,data_NE,bss_NE,data_NO,bss_NO,stack,istack,heap_NE,rom_NE=08000,rom_NO,data_SEI,data_SOI,data_NEI,data_NOI,switch_table,program,interrupt,vector=0FED8
+-R8C
+"Z:\WorkSpace\r8c35a_ensyu\timer_rd_doukipwm\Debug\startup.r30"
+"Z:\WorkSpace\r8c35a_ensyu\timer_rd_doukipwm\Debug\timer_rd_doukipwm.r30"

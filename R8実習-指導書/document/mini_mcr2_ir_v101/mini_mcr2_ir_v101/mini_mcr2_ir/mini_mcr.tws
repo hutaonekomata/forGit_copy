@@ -1,0 +1,21 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"mini_mcr" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\WorkSpace\common_r8c35a\printf_lib.c" 
+"C:\WorkSpace\common_r8c35a\printf_lib.h" 
+"C:\WorkSpace\common_r8c35a\sfr_r835a.h" 
+"C:\WorkSpace\mini_mcr2_ir\mini_mcr\mini_mcr.c" 
+[WORKSPACE_FILE_STATES]
+"C:\WorkSpace\common_r8c35a\printf_lib.c" 66 87 917 406 0 3 
+"C:\WorkSpace\common_r8c35a\printf_lib.h" 22 29 917 406 0 1 
+"C:\WorkSpace\common_r8c35a\sfr_r835a.h" 44 58 917 406 0 2 
+"C:\WorkSpace\mini_mcr2_ir\mini_mcr\mini_mcr.c" -4 -30 1057 614 1 0 
+[LOADED_PROJECTS]
+"mini_mcr" 
+[END]
